@@ -241,18 +241,12 @@ nav ul li a:hover::after{
     background: red;
 }
 /*contact*/
-.contact-left, .contact-right{
-    display: inline-block;
-    
-}
+
 .contact-left{
     flex-basis: 35%;
     margin-left: 10%;
 }
-.contact-right{
-    flex-basis: 100%;
-    padding-top: 0%;
-}
+
 .contact-left p{
     margin-top: 30px;
 }
@@ -280,17 +274,4 @@ nav ul li a:hover::after{
     display: inline-block;
     background: red;
 }
-.contact-right form{
-    width: 50%;
-}
-form input,form textarea{
-    width: 50%;
-    border: 0;
-    outline: none;
-    background: red;
-    padding: 15px;
-    margin: 15px 0;
-    color: blue;
-    font-size: 18px;
-    border-radius: 6px;
-}
+
